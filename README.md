@@ -1,15 +1,33 @@
 # Tom Bussard
 
 **Quantitative Analyst Apprentice** at BNP Paribas CIB<br>
-**Economics and Financial Engineering** at Université Paris Dauphine PSL
+**Master's in Economics and Financial Engineering** (quantitative track) at Université Paris Dauphine PSL
 
-I study derivatives exposure for hedge fund counterparties. Before BNP Paribas CIB, I worked on autocallables and equity indices at Amundi and on oil forward-curve risk at Société Générale CIB. I began my studies in economics and mathematics at Toulouse School of Economics.
+Before joining BNP Paribas CIB, I worked in structuring at Amundi, following an internship at Société Générale CIB. I started my studies in economics and mathematics at Toulouse School of Economics.
 
 I also build software outside finance. I developed **MyExperts** so people who refer renovation work to Expert Travaux can submit leads, track jobs and check their commissions. With **KeyDom**, I built a platform that helps students find medium-term rentals in Paris and its surrounding region.
 
 [2026](#2026) · [2025](#2025) · [2024](#2024) · [2023](#2023) · [LinkedIn](https://www.linkedin.com/in/tom-bussard/)
 
 ## 2026
+
+### [LatticeLab](https://github.com/TomBussard/LatticeLab)
+
+**A binomial option pricer in Python, with a second implementation in Excel VBA.** I built the tree so I could follow an option price all the way back from expiry. An American put was a good first test. At every node I have to decide whether the holder is better off exercising or waiting.
+
+![LatticeLab showing a four-step American put with the share price and option value at each node](https://raw.githubusercontent.com/TomBussard/LatticeLab/main/figures/american-put-tree.jpg)
+
+In this example the share starts at **€100**. After one quarter it can rise to **€111.93** or fall to **€91.60**. Two down moves bring the share to **€83.91**. Exercising the €100 put there pays **€16.09**, compared with **€15.39** for holding it one more step. The tree marks that decision with a dark outline.
+
+![The Python pricer showing how a European call's delta changes as the share price moves from 80 to 120 euros](https://raw.githubusercontent.com/TomBussard/LatticeLab/main/figures/call-delta.jpg)
+
+I then switched to a European call to study the hedge. At a share price of **€100**, the 128-step model gives a delta of **0.6333**. Near that point a €1 move in the share changes the price of one call by about **€0.63**. The curve shows how quickly that hedge changes as the share moves through the strike.
+
+![LatticeLab displaying the European call price and its absolute error from Black-Scholes at six grid sizes](https://raw.githubusercontent.com/TomBussard/LatticeLab/main/figures/binomial-convergence.jpg)
+
+The same call is worth **€10.4506** under Black-Scholes. The 96-step tree came closer than the 128-step tree. Checking several grids helped me distinguish a lucky match from a reliable price. I also ran the same contracts through desktop Excel to check the Python implementation.
+
+[Explore the two contracts, the node calculations and the Excel workbook](https://github.com/TomBussard/LatticeLab#inside-the-pricer)
 
 ### [VolDesk](https://github.com/TomBussard/VolDesk)
 
@@ -28,16 +46,6 @@ From the chain I can combine listed calls into a spread and compare its model va
 The pricer above uses the strikes and expiry from the captured session. Its two-leg quote can be checked against the bid and ask before adding the position to the simulated book.
 
 [Walk through a quote, its Greeks and the simulated hedge](https://github.com/TomBussard/VolDesk#walk-through-a-trade)
-
-### [LatticeLab](https://github.com/TomBussard/LatticeLab)
-
-**Option pricing with binomial and trinomial trees in Python and Excel VBA.** A European call has a convenient reference price. An American put with a discrete dividend asks a harder question at each node. Is it worth more exercised now, or held for another step? I built the two implementations around the same contract inputs so I could change one assumption at a time.
-
-![Binomial and trinomial call prices approaching the Black-Scholes reference as the grid gets finer](https://raw.githubusercontent.com/TomBussard/LatticeLab/main/figures/tree-convergence.png)
-
-For the one-year at-the-money call shown here, the reference value is **10.4506**. Looking across several grid sizes showed why a single close match can be misleading. I also checked the two tree prices against desktop Excel using the same inputs.
-
-[Inspect the convergence experiment and the VBA workbook](https://github.com/TomBussard/LatticeLab#how-it-works)
 
 ### [TransitionLens](https://github.com/TomBussard/TransitionLens)
 
