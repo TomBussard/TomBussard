@@ -15,13 +15,13 @@ I am a counterparty risk analyst apprentice at BNP Paribas CIB and a master's st
 | When | Project | What I explored |
 | --- | --- | --- |
 | September 2026 | [RatingSpread](https://github.com/TomBussard/RatingSpread) | I compared four ESG rating systems and measured how often they selected the same stocks. |
-| 2025 | [StratLedger](https://github.com/TomBussard/StratLedger) | A multi-strategy simulator that traces trades through a SQLite ledger to weekly returns and drawdowns. |
-| 2025 | [GreenFolio](https://github.com/TomBussard/GreenFolio) | An interactive portfolio builder showing how a change in ESG preferences affects holdings, risk and benchmark performance. |
-| 2025 | [IndexFoundry](https://github.com/TomBussard/IndexFoundry) | A workbench for constructing sector, momentum and fundamentals-based equity indices from US and European stocks. |
+| April 2025 | [StratLedger](https://github.com/TomBussard/StratLedger) | A multi-strategy simulator that traces trades through a SQLite ledger to weekly returns and drawdowns. |
+| April 2025 | [GreenFolio](https://github.com/TomBussard/GreenFolio) | An interactive portfolio builder showing how a change in ESG preferences affects holdings, risk and benchmark performance. |
 | March 2025 | [AlpineSwap](https://github.com/TomBussard/AlpineSwap) | I simulated the 15 annual payments on a EUR/CHF swap and measured the tail of the discounted cash flows. |
-| 2024 | [TetherScope](https://github.com/TomBussard/TetherScope) | I tested in R whether crypto volatility helps predict changes in Tether's market share, and vice versa. |
-| 2024 | [ParisTape](https://github.com/TomBussard/ParisTape) | I compared 10,000 allocations across five French equities and tracked how the weights changed volatility and the Sharpe ratio. |
-| 2023 | [EcoAtlas](https://github.com/TomBussard/EcoAtlas) | In my first cross-country statistics project, I compared environmental performance, waste trade and income across 58 countries. |
+| January 2025 | [IndexFoundry](https://github.com/TomBussard/IndexFoundry) | A workbench for constructing sector, momentum and fundamentals-based equity indices from US and European stocks. |
+| December 2024 | [TetherScope](https://github.com/TomBussard/TetherScope) | I tested in R whether crypto volatility helps predict changes in Tether's market share, and vice versa. |
+| April 2024 | [ParisTape](https://github.com/TomBussard/ParisTape) | I compared 10,000 allocations across five French equities and tracked how the weights changed volatility and the Sharpe ratio. |
+| December 2023 | [EcoAtlas](https://github.com/TomBussard/EcoAtlas) | In my first cross-country statistics project, I compared environmental performance, waste trade and income across 58 countries. |
 
 ## Experience and education
 
