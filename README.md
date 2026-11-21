@@ -1,17 +1,11 @@
 # Tom Bussard
 
-**Quantitative Analyst Apprentice** at BNP Paribas CIB
-
+**Quantitative Analyst Apprentice** at BNP Paribas CIB<br>
 **Economics and Financial Engineering** at Université Paris Dauphine PSL
 
-I work on the exposure of hedge fund counterparties to derivatives. Before BNP Paribas CIB, I worked on autocallables and equity indices at Amundi and on oil forward-curve stress scenarios at Société Générale CIB. I started out studying economics and mathematics at Toulouse School of Economics before moving to Dauphine.
+I study derivatives exposure for hedge fund counterparties. Before BNP Paribas CIB, I worked on autocallables and equity indices at Amundi and on oil forward-curve risk at Société Générale CIB. I began my studies in economics and mathematics at Toulouse School of Economics.
 
-Alongside finance, I have built two applications for very different users.
-
-* **MyExperts.** I developed a mobile application for people who refer renovation work to Expert Travaux. They can submit a lead, follow what happens to the job and check their commission. A separate back office helps the operations team manage those referrals.
-* **KeyDom.** I built a housing platform for students looking for medium-term rentals in Paris and the surrounding region. I focused on matching the dates a property is available with the length of a student's stay.
-
-The projects below trace that path backwards. The most recent is an options desk where I can follow a quote all the way into a simulated book. At the other end is my first country-level study in R, where the hardest decision was how much a small sample could tell me.
+I also build software outside finance. I developed **MyExperts** so people who refer renovation work to Expert Travaux can submit leads, track jobs and check their commissions. With **KeyDom**, I built a platform that helps students find medium-term rentals in Paris and its surrounding region.
 
 [2026](#2026) · [2025](#2025) · [2024](#2024) · [2023](#2023) · [LinkedIn](https://www.linkedin.com/in/tom-bussard/)
 
